@@ -1,8 +1,9 @@
-const MyPromise = require("./MyPromise.js")
-// const MyPromise = Promise
+const MyPromise = require("./MyPromise.js") // own custom promise implementation
+// const MyPromise = Promise // default promise implementation
 
 const DEFAULT_VALUE = "default"
 
+// all the static method on Promise
 describe("then", () => {
   it("with no chaining", () => {
     return promise().then(v => expect(v).toEqual(DEFAULT_VALUE))

@@ -1,7 +1,6 @@
 {
   "name": "custom-promise-library",
   "version": "1.0.0",
-  "description": "",
   "main": "MyPromise.js",
   "scripts": {
     "test": "jest --watchAll --noStackTrace"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinYun2020/js-promise-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XinYun2020/js-promise-library/issues"
+  },
+  "homepage": "https://github.com/XinYun2020/js-promise-library#readme",
+  "description": ""
 }
